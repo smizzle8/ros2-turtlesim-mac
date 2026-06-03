@@ -1,6 +1,6 @@
 # ROS2 Turtlesim on macOS — No VM Required
 
-Run ROS2 and turtlesim natively on macOS (Apple Silicon & Intel) using [RoboStack](https://robostack.github.io/). No virtual machine, no Docker, no XQuartz needed.
+Run ROS2 Humble and turtlesim natively on macOS (Apple Silicon & Intel) using [RoboStack](https://robostack.github.io/). No virtual machine, no Docker, no XQuartz needed.
 
 ## Requirements
 
@@ -17,7 +17,7 @@ That's it.
 bash setup.sh
 ```
 
-This installs ROS2 Jazzy + turtlesim into an isolated conda environment. Takes ~5–10 minutes on first run.
+This installs ROS2 Humble + turtlesim into an isolated conda environment. Takes ~5–10 minutes on first run.
 
 ### 2. Launch turtlesim
 

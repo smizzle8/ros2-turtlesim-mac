@@ -6,7 +6,7 @@ set -e
 
 MAMBA=""
 ENV_NAME="ros2"
-ROS_DISTRO="jazzy"
+ROS_DISTRO="humble"
 
 echo "================================================"
 echo " ROS2 Turtlesim Setup for macOS"
@@ -47,8 +47,8 @@ else
         -c robostack-staging \
         -c conda-forge \
         --no-channel-priority \
-        ros-${ROS_DISTRO}-desktop \
-        ros-${ROS_DISTRO}-turtlesim \
+        ros-humble-desktop \
+        ros-humble-turtlesim \
         python=3.11 \
         -y
     echo ""
